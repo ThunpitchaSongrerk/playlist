@@ -37,7 +37,26 @@ let songLength = [
 
 function displaySongInfo() {
   // Complete the Day 2 goals inside this function
-$(".songs").text(songNames[0]);
+// write your forEach loop here
+     songNames.forEach(function(title) {
+    $('.songs').append("<p>" + title + "</p>");
+     });
+  
+  artists.forEach(function(name) {
+    $('.artists').append("<p>" + name + "</p>");
+     });
+  
+  songImages.forEach(function(image) {
+    $('.images').append(`<p><img src="${image}"></p>`);
+     });
+  
+  songLinks.forEach(function(link) {
+    $('.links').append(`<p><a href="${link}">Link</a></p>`);
+     });
+  
+  songLength.forEach(function(length) {
+    $('.lengths').append("<p>" + length + "</p>");
+     });
 }
 
 function emptySongInfo() {

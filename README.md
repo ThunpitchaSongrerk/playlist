@@ -47,19 +47,19 @@ In this unit, coders will create a Playlist. The Playlist will display a list of
 
 #### Wrap
 
-- [ ] Push your changes!
+- [x] Push your changes!
 
 ## Day 3
 
 ### Day 3 Goal 1: Write the code to allow users to add additional songs to your playlist
 
-- [ ] Declare a variable and save the value of the user input with class `song`
-- [ ] Use `.push()` to add the value to your song name array.
+- [x] Declare a variable and save the value of the user input with class `song`
+- [x] Use `.push()` to add the value to your song name array.
 
 ### Day 3 Goal 2: Write the code to allow users to add additional song information to your playlist
 
-- [ ] Declare additional variables and save the values of each input tag
-- [ ] Use `.push()` to add each input value to the correct array
+- [x] Declare additional variables and save the values of each input tag
+- [x] Use `.push()` to add each input value to the correct array
 
 #### Wrap
 
